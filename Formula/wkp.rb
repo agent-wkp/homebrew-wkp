@@ -5,8 +5,8 @@ class Wkp < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/williamcaban/agent-wkp/releases/download/v1.0.1/wkp-aarch64-apple-darwin"
-      sha256 "028eecb60122e0f59e70665eb013c48b994afb2c6c7b22ffcbad2ff4b231ed12"
+      url "https://github.com/williamcaban/agent-wkp/releases/download/v1.0.2/wkp-aarch64-apple-darwin"
+      sha256 "67cc25626962eccf28bd87b84b0af5ac55591b8f472570a7b95c833877ef66ec"
     end
     on_intel do
       odie "wkp does not yet publish an x86_64 macOS binary -- see " \
@@ -17,8 +17,8 @@ class Wkp < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/williamcaban/agent-wkp/releases/download/v1.0.1/wkp-x86_64-unknown-linux-musl"
-      sha256 "806d5c543bb63b4ac05134269065eec877dad8299c6354b0885c386756f85a92"
+      url "https://github.com/williamcaban/agent-wkp/releases/download/v1.0.2/wkp-x86_64-unknown-linux-musl"
+      sha256 "875f77dd94e30ddd8022852d71fe24883de3a843f1d31f6c1b0732619745e604"
     end
     on_arm do
       odie "wkp does not yet publish an aarch64 Linux binary -- see " \
